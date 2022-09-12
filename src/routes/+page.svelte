@@ -1,2 +1,6 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import StaticAssets from './StaticAssets.svelte'
+</script>
+
+<h2 id="file-organization">File organization</h2>
+<StaticAssets />

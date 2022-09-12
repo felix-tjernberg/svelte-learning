@@ -7,10 +7,10 @@ The questions I wanted to figure out are the following:
 ## File organization
 
 1. How to organize css global and local styles?
-2. How to split out javascript in to separate files like utility functions?
-3. What happens when npm packages are imported?
-4. How variables in .svelte files are scoped?
-5. How to setup aliases for imports?
+2. How to split out javascript to separate files like utility functions?
+3. How to setup aliases for imports?
+4. What happens when npm packages are imported?
+5. How variables in .svelte files are scoped?
 6. Find out best practices when it comes to building components
 
 ## State management
