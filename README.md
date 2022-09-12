@@ -11,6 +11,7 @@ The questions I wanted to figure out are the following:
 3. What happens when npm packages are imported?
 4. How variables in .svelte files are scoped?
 5. How to setup aliases for imports?
+6. Find out best practices when it comes to building components
 
 ## State management
 
