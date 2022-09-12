@@ -8,6 +8,12 @@ module.exports = {
 	settings: {
 		'svelte3/typescript': () => require('typescript')
 	},
+	rules: {
+		'no-unused-vars': 'warn',
+		'sort-imports': 'warn',
+		'sort-keys': ['warn', 'asc', { natural: true }],
+		'sort-vars': 'warn'
+	},
 	parserOptions: {
 		sourceType: 'module',
 		ecmaVersion: 2020
@@ -17,4 +23,4 @@ module.exports = {
 		es2017: true,
 		node: true
 	}
-};
+}
