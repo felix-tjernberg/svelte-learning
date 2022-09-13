@@ -7,3 +7,6 @@ declare namespace App {
 	// interface PageError {}
 	// interface Platform {}
 }
+
+declare module 'fast-lorem-ipsum'
+declare module 'one-liner-joke'

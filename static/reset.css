@@ -56,7 +56,6 @@ html {
 
 p {
 	line-height: 1.5;
-	margin: auto;
 }
 
 @media (prefers-reduced-motion: reduce) {

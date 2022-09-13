@@ -13,6 +13,7 @@ h3 {
 	font-family: cursive;
 	text-transform: capitalize;
 }
+body,
 p {
 	font-family: sans-serif;
 }
