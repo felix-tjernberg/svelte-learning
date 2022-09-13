@@ -10,8 +10,6 @@ The questions I wanted to figure out are the following:
 2. How to split out javascript to separate files like utility functions?
 3. How to setup aliases for imports?
 4. What happens when npm packages are imported?
-5. How variables in .svelte files are scoped?
-6. Find out best practices when it comes to building components
 
 ## State management
 
@@ -26,6 +24,7 @@ The questions I wanted to figure out are the following:
 1. How hydration works in svelte?
 2. How routing works?
 3. How to setup API endpoints?
+4. How async/fetch on server and client side works?
 
 ## Project organization
 

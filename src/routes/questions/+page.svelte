@@ -9,8 +9,6 @@
 	<li>How to split out javascript to separate files like utility functions?</li>
 	<li>How to setup aliases for imports?</li>
 	<li>What happens when npm packages are imported?</li>
-	<li>How variables in .svelte files are scoped?</li>
-	<li>Find out best practices when it comes to building components</li>
 </ol>
 
 <h2>State management</h2>
@@ -29,6 +27,7 @@
 	<li>How hydration works in svelte?</li>
 	<li>How routing works?</li>
 	<li>How to setup API endpoints?</li>
+	<li>How async/fetch on server and client side works?</li>
 </ol>
 
 <h2>Project organization</h2>
