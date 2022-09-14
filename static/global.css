@@ -13,10 +13,28 @@ h3 {
 	font-family: cursive;
 	text-transform: capitalize;
 }
+h1,
+h2 {
+	color: hsl(115, 60%, 56%);
+}
+h3 {
+	color: hsl(115, 30%, 56%);
+}
 body,
 p {
 	font-family: sans-serif;
 }
 body > div {
 	margin: 1em;
+}
+body > div {
+	padding-bottom: 90vh;
+}
+body {
+	background-color: #eee;
+}
+li,
+p {
+	color: #393939;
+	width: auto;
 }

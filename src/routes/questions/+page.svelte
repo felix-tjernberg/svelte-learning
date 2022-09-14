@@ -11,7 +11,9 @@
 	<li>What happens when npm packages are imported?</li>
 </ol>
 
-<h2>State management</h2>
+<a href="/#state-management">
+	<h2>State management</h2>
+</a>
 
 <ol>
 	<li>How reactivity works?</li>
@@ -21,7 +23,9 @@
 	<li>How to do something simple like toggling dark/light mode?</li>
 </ol>
 
-<h2>Server side</h2>
+<a href="/#server-side">
+	<h2>Server side</h2>
+</a>
 
 <ol>
 	<li>How hydration works in svelte?</li>
@@ -30,7 +34,9 @@
 	<li>How async/fetch on server and client side works?</li>
 </ol>
 
-<h2>Project organization</h2>
+<a href="/#project-organization">
+	<h2>Project organization</h2>
+</a>
 
 <ol>
 	<li>How testing with playwright works?</li>
