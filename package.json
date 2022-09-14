@@ -32,6 +32,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@macfja/svelte-persistent-store": "^2.1.0",
 		"fast-lorem-ipsum": "^1.2.0"
 	}
 }

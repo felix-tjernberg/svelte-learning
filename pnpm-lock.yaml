@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@macfja/svelte-persistent-store': ^2.1.0
   '@playwright/test': ^1.25.0
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
@@ -20,6 +21,7 @@ specifiers:
   vite: ^3.1.0
 
 dependencies:
+  '@macfja/svelte-persistent-store': 2.1.0_svelte@3.50.1
   fast-lorem-ipsum: 1.2.0
 
 devDependencies:
@@ -115,6 +117,22 @@ packages:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
+
+  /@macfja/serializer/1.1.1:
+    resolution: {integrity: sha512-kZ0fYQNpSfzpZIGZWcfd6KPXtLTjvYEGZux4etIJcg8N64CTYmDen+CJhqjQ2vUG3IAteOmIFystzKrtLjISbw==}
+    dev: false
+
+  /@macfja/svelte-persistent-store/2.1.0_svelte@3.50.1:
+    resolution: {integrity: sha512-v5JhMUCngYJQ0UCPtFARNX5vvhnrfB6/pTLXnPvDKkZJkyxGJ+61YmLalhb0i0gVYy+scxy+bA4cHyr/yt91rg==}
+    peerDependencies:
+      svelte: ^3.0
+    dependencies:
+      '@macfja/serializer': 1.1.1
+      browser-cookies: 1.2.0
+      cyrup: 0.8.1
+      idb-keyval: 5.1.5
+      svelte: 3.50.1
+    dev: false
 
   /@mapbox/node-pre-gyp/1.0.10:
     resolution: {integrity: sha512-4ySo4CjzStuprMwk35H5pPbkymjv1SF3jGLj6rAHp/xT/RF7TL7bd9CTm1xDY49K2qF7jmR/g7k+SkLETP6opA==}
@@ -539,6 +557,10 @@ packages:
       fill-range: 7.0.1
     dev: true
 
+  /browser-cookies/1.2.0:
+    resolution: {integrity: sha512-cg2WuoOJo+F+g2XjEaP8nmeRp1vDHjt7sqpKJMsTNXKrpyIBNVslYJeehvs6FEddj8usV2+qyRSBEX244yN5/g==}
+    dev: false
+
   /buffer-crc32/0.2.13:
     resolution: {integrity: sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==}
     dev: true
@@ -613,6 +635,10 @@ packages:
       shebang-command: 2.0.0
       which: 2.0.2
     dev: true
+
+  /cyrup/0.8.1:
+    resolution: {integrity: sha512-nBtYqOSyaXLlUbr0KzDiHsvR6jqqrJmbyXBUur2dC1axZjlFm+v++2SYFXKMQC+Dj+0ywy+9WJjV8Eu+6vemYQ==}
+    dev: false
 
   /data-uri-to-buffer/4.0.0:
     resolution: {integrity: sha512-Vr3mLBA8qWmcuschSLAOogKgQ/Jwxulv3RNE4FXnYWRGujzrRWQI4m12fQqRkwX06C0KanhLr4hK+GydchZsaA==}
@@ -1258,6 +1284,12 @@ packages:
       - supports-color
     dev: true
 
+  /idb-keyval/5.1.5:
+    resolution: {integrity: sha512-J1utxYWQokYjy01LvDQ7WmiAtZCGUSkVi9EIBfUSyLOr/BesnMIxNGASTh9A1LzeISSjSqEPsfFdTss7EE7ofQ==}
+    dependencies:
+      safari-14-idb-fix: 1.0.6
+    dev: false
+
   /ignore/5.2.0:
     resolution: {integrity: sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==}
     engines: {node: '>= 4'}
@@ -1748,6 +1780,10 @@ packages:
       mri: 1.2.0
     dev: true
 
+  /safari-14-idb-fix/1.0.6:
+    resolution: {integrity: sha512-oTEQOdMwRX+uCtWCKT1nx2gAeSdpr8elg/2gcaKUH00SJU2xWESfkx11nmXwTRHy7xfQoj1o4TTQvdmuBosTnA==}
+    dev: false
+
   /safe-buffer/5.2.1:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
     dev: true
@@ -1968,7 +2004,6 @@ packages:
   /svelte/3.50.1:
     resolution: {integrity: sha512-bS4odcsdj5D5jEg6riZuMg5NKelzPtmsCbD9RG+8umU03TeNkdWnP6pqbCm0s8UQNBkqk29w/Bdubn3C+HWSwA==}
     engines: {node: '>= 8'}
-    dev: true
 
   /tar/6.1.11:
     resolution: {integrity: sha512-an/KZQzQUkZCkuoAA64hM92X0Urb6VpRhAFllDzz44U2mcD5scmT3zBc4VgVpkugF580+DQn8eAFSyoQt0tznA==}

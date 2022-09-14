@@ -4,12 +4,14 @@
 h1,
 h2,
 h3,
+h4,
 p {
 	margin-top: 1em;
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
 	font-family: cursive;
 	text-transform: capitalize;
 }
@@ -37,4 +39,9 @@ li,
 p {
 	color: #393939;
 	width: auto;
+}
+button {
+	background-color: hsl(115, 30%, 56%);
+	color: #eee;
+	padding: 4px 8px;
 }

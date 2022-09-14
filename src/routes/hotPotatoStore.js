@@ -58,4 +58,4 @@ function createHotPotato() {
 	}
 }
 
-export const hotPotatoGame = createHotPotato()
+export let hotPotatoGame = createHotPotato()
