@@ -28,7 +28,9 @@
 	}}>Change name to Felix</button>
 
 <h4>Custom persistedWritable function</h4>
-<p>{$name}</p>
+{#if $name}
+	<p>{$name}</p>
+{:else}<p>Loading...</p>{/if}
 <button
 	on:click={() => {
 		$name = 'Felix'
