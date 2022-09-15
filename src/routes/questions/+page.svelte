@@ -19,8 +19,6 @@
 	<li>How reactivity works?</li>
 	<li>How to use stores?</li>
 	<li>How to deal with local storage?</li>
-	<li>How components communicate with each other via props, global and context states?</li>
-	<li>How to do something simple like toggling dark/light mode?</li>
 </ol>
 
 <a href="/#server-side">
@@ -28,10 +26,11 @@
 </a>
 
 <ol>
-	<li>How hydration works in svelte?</li>
 	<li>How routing works?</li>
 	<li>How to setup API endpoints?</li>
 	<li>How async/fetch on server and client side works?</li>
+	<li>How should video be delivered?</li>
+	<li>How should images be delivered?</li>
 </ol>
 
 <a href="/#project-organization">
@@ -39,8 +38,8 @@
 </a>
 
 <ol>
+	<li>How to setup internationalization?</li>
 	<li>How testing with playwright works?</li>
 	<li>How unit test with vitest works?</li>
-	<li>How to setup eslint and prettier (this was solved by the create svelte template)</li>
 	<li>How to setup PWA?</li>
 </ol>
