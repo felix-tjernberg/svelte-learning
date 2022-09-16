@@ -33,6 +33,32 @@
 	<li>How should images be delivered?</li>
 </ol>
 
+<a href="/#svelte-specific">
+	<h2>Svelte specific</h2>
+</a>
+
+<ol>
+	<li>How dom events work?</li>
+	<li>How to setup custom/component events?</li>
+	<li>How event modifier works?</li>
+	<li>How bindings work?</li>
+	<li>How custom component bindings work?</li>
+	<li>How event forwarding works?</li>
+	<li>How svelte fragment works?</li>
+</ol>
+
+<a href="/#pre-processing">
+	<h2>Pre processing</h2>
+</a>
+
+<ol>
+	<li>If you can make the bunde inject static css directly into html document instead of creating .css files?</li>
+	<li>How to configure postcss?</li>
+	<li>How to use pug?</li>
+	<li>How to setup automatic conversion of images to scrset sizes and .avif and .webp formats</li>
+	<li>How to setup automatic conversion of videos to webm formats</li>
+</ol>
+
 <a href="/#project-organization">
 	<h2>Project organization</h2>
 </a>
