@@ -2,7 +2,7 @@
 <slot />
 <nav>
 	<a href="/">Answers</a>
-	<a href="/questions">Questions</a>
+	<a href="/questions#top">Questions</a>
 </nav>
 
 <style>

@@ -1,7 +1,7 @@
 <p>The questions I wanted to figure out are the following:</p>
 
 <a href="/#file-organization">
-	<h2>File organization</h2>
+	<h2 id="file-organization">File organization</h2>
 </a>
 
 <ol>
@@ -12,7 +12,7 @@
 </ol>
 
 <a href="/#state-management">
-	<h2>State management</h2>
+	<h2 id="state-management">State management</h2>
 </a>
 
 <ol>
@@ -22,7 +22,7 @@
 </ol>
 
 <a href="/#server-side">
-	<h2>Server side</h2>
+	<h2 id="server-side">Server side</h2>
 </a>
 
 <ol>
