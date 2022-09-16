@@ -1,12 +1,10 @@
-<a href="https://kit.svelte.dev/docs/routing">
-	<h3>Routing</h3>
-</a>
+<h3>Routing</h3>
 <p><em>Answers:</em> 1</p>
 <details>
 	<summary>
 		<p>
-			Sveltekit uses folder based routing and within those folders you can place "magic" files (represented with a +)
-			that sveltekit then compiles into routes, route logic and api endpoints
+			<a href="https://kit.svelte.dev/docs/routing">Sveltekit uses folder based routing</a> and within those folders you
+			can place "magic" files (represented with a +) that sveltekit then compiles into routes, route logic and api endpoints
 		</p>
 	</summary>
 	<a href="https://kit.svelte.dev/docs/routing#page">

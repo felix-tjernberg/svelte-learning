@@ -28,7 +28,7 @@
 <ol>
 	<li>How routing works?</li>
 	<li>How to setup API endpoints?</li>
-	<li>How async/fetch on server and client side works?</li>
+	<li>How to load data on server server side and update data on client side?</li>
 	<li>How should video be delivered?</li>
 	<li>How should images be delivered?</li>
 </ol>
@@ -39,7 +39,8 @@
 
 <ol>
 	<li>How to setup internationalization?</li>
+	<li>How to setup PWA?</li>
+	<li>How to setup service workers?</li>
 	<li>How testing with playwright works?</li>
 	<li>How unit test with vitest works?</li>
-	<li>How to setup PWA?</li>
 </ol>

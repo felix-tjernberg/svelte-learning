@@ -6,6 +6,7 @@
 	import LocalStorage from './LocalStorage.svelte'
 	import Routing from './Routing.svelte'
 	import ApiEndpoint from './ApiEndpoint.svelte'
+	import LoadingData from './LoadingData.svelte'
 </script>
 
 <a href="/questions#file-organization">
@@ -26,3 +27,4 @@
 </a>
 <Routing />
 <ApiEndpoint />
+<LoadingData />
