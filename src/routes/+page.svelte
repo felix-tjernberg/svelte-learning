@@ -5,6 +5,7 @@
 	import Stores from './Stores.svelte'
 	import LocalStorage from './LocalStorage.svelte'
 	import Routing from './Routing.svelte'
+	import ApiEndpoint from './ApiEndpoint.svelte'
 </script>
 
 <a href="/questions#file-organization">
@@ -24,3 +25,4 @@
 	<h2 id="server-side">Server side</h2>
 </a>
 <Routing />
+<ApiEndpoint />
