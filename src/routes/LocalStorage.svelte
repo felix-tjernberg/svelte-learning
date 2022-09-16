@@ -28,6 +28,11 @@
 	}}>Change name to Felix</button>
 
 <h4>Custom persistedWritable function</h4>
+<p>
+	<em
+		>Note: In this example I set the writable to false on the server render so a "loading" component can be rendered
+		until the value has been read from local storage</em>
+</p>
 {#if $name}
 	<p>{$name}</p>
 {:else}<p>Loading...</p>{/if}
