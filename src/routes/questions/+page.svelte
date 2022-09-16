@@ -34,16 +34,16 @@
 </ol>
 
 <a href="/#svelte-specific">
-	<h2>Svelte specific</h2>
+	<h2 id="svelte-specific">Svelte specific</h2>
 </a>
 
 <ol>
 	<li>How dom events work?</li>
-	<li>How to setup custom/component events?</li>
 	<li>How event modifier works?</li>
+	<li>How to setup custom events?</li>
+	<li>How event forwarding works?</li>
 	<li>How bindings work?</li>
 	<li>How custom component bindings work?</li>
-	<li>How event forwarding works?</li>
 	<li>How svelte fragment works?</li>
 </ol>
 

@@ -7,6 +7,7 @@
 	import Routing from './Routing.svelte'
 	import ApiEndpoint from './ApiEndpoint.svelte'
 	import LoadingData from './LoadingData.svelte'
+	import DomEvents from './DomEvents.svelte'
 </script>
 
 <a href="/questions#file-organization">
@@ -28,3 +29,8 @@
 <Routing />
 <ApiEndpoint />
 <LoadingData />
+
+<a href="/questions#svelte-specific">
+	<h2 id="svelte-specific">Svelte specific</h2>
+</a>
+<DomEvents />
