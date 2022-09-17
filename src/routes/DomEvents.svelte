@@ -8,6 +8,7 @@
 </script>
 
 <h3>Events</h3>
+<p><em>Answers:</em> 1, 2, 3, 4</p>
 <details>
 	<summary>
 		<p>Events can be used with <code>on:eventname</code></p>

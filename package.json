@@ -13,16 +13,22 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
+		"@macfja/svelte-persistent-store": "^2.1.0",
 		"@playwright/test": "^1.25.0",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
 		"@typescript-eslint/parser": "^5.27.0",
+		"autoprefixer": "^10.4.11",
+		"cssnano": "^5.1.13",
 		"eslint": "^8.16.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
+		"postcss": "^8.4.16",
 		"prettier": "^2.6.2",
 		"prettier-plugin-svelte": "^2.7.0",
+		"pug": "^3.0.2",
+		"stylus": "^0.59.0",
 		"svelte": "^3.44.0",
 		"svelte-check": "^2.7.1",
 		"svelte-preprocess": "^4.10.6",
@@ -32,7 +38,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@macfja/svelte-persistent-store": "^2.1.0",
 		"fast-lorem-ipsum": "^1.2.0"
 	}
 }

@@ -8,6 +8,7 @@
 	import ApiEndpoint from './ApiEndpoint.svelte'
 	import LoadingData from './LoadingData.svelte'
 	import DomEvents from './DomEvents.svelte'
+	import PreProcessing from './questions/PreProcessing.svelte'
 </script>
 
 <a href="/questions#file-organization">
@@ -34,3 +35,9 @@
 	<h2 id="svelte-specific">Svelte specific</h2>
 </a>
 <DomEvents />
+
+<template lang="pug">
+	a(href="/questions#pre-processing")
+		h2(id="pre-processing") Pre-processing
+</template>
+<PreProcessing />

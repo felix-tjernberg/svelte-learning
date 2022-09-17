@@ -3,7 +3,6 @@
 <a href="/#file-organization">
 	<h2 id="file-organization">File organization</h2>
 </a>
-
 <ol>
 	<li>How to organize css global and local styles?</li>
 	<li>How to split out javascript to separate files like utility functions?</li>
@@ -14,7 +13,6 @@
 <a href="/#state-management">
 	<h2 id="state-management">State management</h2>
 </a>
-
 <ol>
 	<li>How reactivity works?</li>
 	<li>How to use stores?</li>
@@ -24,7 +22,6 @@
 <a href="/#server-side">
 	<h2 id="server-side">Server side</h2>
 </a>
-
 <ol>
 	<li>How routing works?</li>
 	<li>How to setup API endpoints?</li>
@@ -36,7 +33,6 @@
 <a href="/#svelte-specific">
 	<h2 id="svelte-specific">Svelte specific</h2>
 </a>
-
 <ol>
 	<li>How dom events work?</li>
 	<li>How event modifier works?</li>
@@ -48,21 +44,19 @@
 </ol>
 
 <a href="/#pre-processing">
-	<h2>Pre processing</h2>
+	<h2 id="pre-processing">Pre-processing</h2>
 </a>
-
 <ol>
-	<li>If you can make the bunde inject static css directly into html document instead of creating .css files?</li>
+	<li>How to use pug or other pre-processed languages?</li>
 	<li>How to configure postcss?</li>
-	<li>How to use pug?</li>
-	<li>How to setup automatic conversion of images to scrset sizes and .avif and .webp formats</li>
-	<li>How to setup automatic conversion of videos to webm formats</li>
+	<li>How to setup automatic conversion of images to scrset sizes and .avif and .webp formats?</li>
+	<li>How to setup automatic conversion of videos to webm formats if possible?</li>
+	<li>How to add rollup and vite plugins</li>
 </ol>
 
-<a href="/#project-organization">
-	<h2>Project organization</h2>
+<a href="/#other">
+	<h2 id="other">Other</h2>
 </a>
-
 <ol>
 	<li>How to setup internationalization?</li>
 	<li>How to setup PWA?</li>
