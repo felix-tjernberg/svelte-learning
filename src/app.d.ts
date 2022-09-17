@@ -10,3 +10,4 @@ declare namespace App {
 
 declare module 'fast-lorem-ipsum'
 declare module 'one-liner-joke'
+declare module 'katex'

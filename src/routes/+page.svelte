@@ -9,6 +9,7 @@
 	import LoadingData from './LoadingData.svelte'
 	import DomEvents from './DomEvents.svelte'
 	import PreProcessing from './questions/PreProcessing.svelte'
+	import Bindings from './Bindings.svelte'
 </script>
 
 <a href="/questions#file-organization">
@@ -35,6 +36,7 @@
 	<h2 id="svelte-specific">Svelte specific</h2>
 </a>
 <DomEvents />
+<Bindings />
 
 <template lang="pug">
 	a(href="/questions#pre-processing")

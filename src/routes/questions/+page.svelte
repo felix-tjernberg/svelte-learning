@@ -39,8 +39,7 @@
 	<li>How to setup custom events?</li>
 	<li>How event forwarding works?</li>
 	<li>How bindings work?</li>
-	<li>How custom component bindings work?</li>
-	<li>How svelte fragment works?</li>
+	<li>How component custom bindings work?</li>
 </ol>
 
 <a href="/#pre-processing">

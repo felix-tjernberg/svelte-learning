@@ -38,6 +38,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"fast-lorem-ipsum": "^1.2.0"
+		"fast-lorem-ipsum": "^1.2.0",
+		"katex": "^0.16.2"
 	}
 }
