@@ -16,8 +16,8 @@
 <svelte:head>
 	<link
 		rel="stylesheet"
-		href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.css"
-		integrity="sha384-IKOookmJ6jaAbJnGdgrLG5MDmzxJmjkIm6XCFqxnhzuMbfkEhGQalwVq2sYnGyZM"
+		href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css"
+		integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X"
 		crossorigin="anonymous" />
 </svelte:head>
 
@@ -28,8 +28,13 @@
 	<p><em>Note:</em> You can bind to any exported value on a svelte component</p>
 	<div>
 		<div>
-			<input type="range" bind:value={a} min="0" max="10" />
-			<Input bind:exportedValue={b} />
+			<div>
+				{@html katex.renderToString(`a=`, { displayMode: true })}<input type="range" bind:value={a} min="0" max="10" />
+			</div>
+			<div>
+				{@html katex.renderToString(`b=`, { displayMode: true })}
+				<Input bind:exportedValue={b} />
+			</div>
 		</div>
 		{@html katex.renderToString(`a^2+b=c`, { displayMode: true })}
 		{@html katex.renderToString(`${a}^2+${b}=${c}`, { displayMode: true })}

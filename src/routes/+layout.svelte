@@ -1,3 +1,7 @@
+<script>
+	import '$lib/stylesheets/global.css'
+</script>
+
 <h1>Learning svelte website</h1>
 <slot />
 <nav>
