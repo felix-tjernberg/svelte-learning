@@ -12,34 +12,34 @@
 	import Bindings from './Bindings.svelte'
 </script>
 
-<a href="/questions#file-organization">
+<a data-sveltekit-reload href="/questions#file-organization">
 	<h2 id="file-organization">File organization</h2>
 </a>
 <StaticAssets />
 <ImportingAndUsingNodePackages />
 
-<a href="/questions#state-management">
+<a data-sveltekit-reload href="/questions#state-management">
 	<h2 id="state-management">State management</h2>
 </a>
 <ReactivityAndStores />
 <Stores />
 <LocalStorage />
 
-<a href="/questions#server-side">
+<a data-sveltekit-reload href="/questions#server-side">
 	<h2 id="server-side">Server side</h2>
 </a>
 <Routing />
 <ApiEndpoint />
 <LoadingData />
 
-<a href="/questions#svelte-specific">
+<a data-sveltekit-reload href="/questions#svelte-specific">
 	<h2 id="svelte-specific">Svelte specific</h2>
 </a>
 <DomEvents />
 <Bindings />
 
 <template lang="pug">
-	a(href="/questions#pre-processing")
+	a(data-sveltekit-reload href="/questions#pre-processing")
 		h2(id="pre-processing") Pre-processing
 </template>
 <PreProcessing />

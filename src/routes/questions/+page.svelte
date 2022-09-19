@@ -1,6 +1,6 @@
 <p>The questions I wanted to figure out are the following:</p>
 
-<a href="/#file-organization">
+<a data-sveltekit-reload href="/#file-organization">
 	<h2 id="file-organization">File organization</h2>
 </a>
 <ol>
@@ -10,7 +10,7 @@
 	<li>What happens when npm packages are imported?</li>
 </ol>
 
-<a href="/#state-management">
+<a data-sveltekit-reload href="/#state-management">
 	<h2 id="state-management">State management</h2>
 </a>
 <ol>
@@ -19,7 +19,7 @@
 	<li>How to deal with local storage?</li>
 </ol>
 
-<a href="/#server-side">
+<a data-sveltekit-reload href="/#server-side">
 	<h2 id="server-side">Server side</h2>
 </a>
 <ol>
@@ -30,7 +30,7 @@
 	<li>How should images be delivered?</li>
 </ol>
 
-<a href="/#svelte-specific">
+<a data-sveltekit-reload href="/#svelte-specific">
 	<h2 id="svelte-specific">Svelte specific</h2>
 </a>
 <ol>
@@ -40,9 +40,10 @@
 	<li>How event forwarding works?</li>
 	<li>How bindings work?</li>
 	<li>How component custom bindings work?</li>
+	<li>How to setup dynamic components?</li>
 </ol>
 
-<a href="/#pre-processing">
+<a data-sveltekit-reload href="/#pre-processing">
 	<h2 id="pre-processing">Pre-processing</h2>
 </a>
 <ol>
@@ -53,7 +54,7 @@
 	<li>How to add rollup and vite plugins</li>
 </ol>
 
-<a href="/#other">
+<a data-sveltekit-reload href="/#other">
 	<h2 id="other">Other</h2>
 </a>
 <ol>

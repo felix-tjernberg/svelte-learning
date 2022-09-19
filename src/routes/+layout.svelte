@@ -1,8 +1,8 @@
 <h1>Learning svelte website</h1>
 <slot />
 <nav>
-	<a href="/">Answers</a>
-	<a href="/questions#top">Questions</a>
+	<a data-sveltekit-reload href="/">Answers</a>
+	<a data-sveltekit-reload href="/questions#top">Questions</a>
 </nav>
 
 <style>
