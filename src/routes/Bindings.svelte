@@ -8,7 +8,7 @@
 	let c = Math.pow(a, 2) + b
 	let elementReference
 	onMount(() => {
-		elementReference.textContent = `Paragraph above is ${elementClientHeightReference} tall`
+		elementReference.textContent = `Hello I was put here using element reference`
 	})
 	$: c = Math.pow(a, 2) + b
 </script>
