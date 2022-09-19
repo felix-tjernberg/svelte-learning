@@ -1,8 +1,8 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
-import ComponentA from './ComponentA.svelte'
-import ComponentB from './ComponentB.svelte'
-import ComponentC from './ComponentC.svelte'
+import ComponentA from '$lib/components/dynamic-components/selectedComponents/ComponentA.svelte'
+import ComponentB from '$lib/components/dynamic-components/selectedComponents/ComponentB.svelte'
+import ComponentC from '$lib/components/dynamic-components/selectedComponents/ComponentC.svelte'
 import { error } from '@sveltejs/kit'
 
 /** @type {import('./$types').PageLoad} */

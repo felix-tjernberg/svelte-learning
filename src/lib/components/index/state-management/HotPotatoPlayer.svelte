@@ -1,6 +1,6 @@
 <script>
 	import { createEventDispatcher } from 'svelte'
-	import { hotPotatoGame } from './hotPotatoStore.js'
+	import { hotPotatoGame } from '$lib/components/index/state-management/hotPotatoStore.js'
 	export let playerNumber = 0
 	const dispatch = createEventDispatcher()
 </script>
