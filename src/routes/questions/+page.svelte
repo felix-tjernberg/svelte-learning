@@ -26,6 +26,7 @@
 	<li>How routing works?</li>
 	<li>How to setup API endpoints?</li>
 	<li>How to load data on server server side and update data on client side?</li>
+	<li>How to gate content?</li>
 </ol>
 
 <a data-sveltekit-reload href="/#svelte-specific">

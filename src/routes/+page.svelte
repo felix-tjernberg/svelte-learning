@@ -11,6 +11,7 @@
 	import PreProcessing from './questions/PreProcessing.svelte'
 	import Bindings from './Bindings.svelte'
 	import ImageAndVideo from './ImageAndVideo.svelte'
+	import DynamicComponents from './DynamicComponents.svelte'
 </script>
 
 <a data-sveltekit-reload href="/questions#file-organization">
@@ -38,6 +39,7 @@
 </a>
 <DomEvents />
 <Bindings />
+<DynamicComponents />
 
 <template lang="pug">
 	a(data-sveltekit-reload href="/questions#pre-processing")
