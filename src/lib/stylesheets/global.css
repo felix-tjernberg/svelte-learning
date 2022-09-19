@@ -2,9 +2,18 @@
 .red-text {
 	color: red;
 }
-h1,
-h2,
-h3,
+body > div {
+	display: flex;
+	flex-direction: column;
+	place-items: center;
+}
+h2 {
+	margin-top: 6em;
+}
+h3 {
+	margin-top: 2em;
+}
+li,
 h4,
 p {
 	margin-top: 1em;
@@ -22,6 +31,9 @@ h2 {
 }
 h3 {
 	color: hsl(115, 30%, 56%);
+}
+p {
+	max-width: 50ch;
 }
 body,
 p {

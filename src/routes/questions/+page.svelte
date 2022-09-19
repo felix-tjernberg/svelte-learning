@@ -26,8 +26,6 @@
 	<li>How routing works?</li>
 	<li>How to setup API endpoints?</li>
 	<li>How to load data on server server side and update data on client side?</li>
-	<li>How should video be delivered?</li>
-	<li>How should images be delivered?</li>
 </ol>
 
 <a data-sveltekit-reload href="/#svelte-specific">
@@ -51,7 +49,6 @@
 	<li>How to configure postcss?</li>
 	<li>How to setup automatic conversion of images to scrset sizes and .avif and .webp formats?</li>
 	<li>How to setup automatic conversion of videos to webm formats if possible?</li>
-	<li>How to add rollup and vite plugins</li>
 </ol>
 
 <a data-sveltekit-reload href="/#other">

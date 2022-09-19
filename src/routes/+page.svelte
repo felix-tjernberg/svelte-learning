@@ -10,6 +10,7 @@
 	import DomEvents from './DomEvents.svelte'
 	import PreProcessing from './questions/PreProcessing.svelte'
 	import Bindings from './Bindings.svelte'
+	import ImageAndVideo from './ImageAndVideo.svelte'
 </script>
 
 <a data-sveltekit-reload href="/questions#file-organization">
@@ -43,3 +44,4 @@
 		h2(id="pre-processing") Pre-processing
 </template>
 <PreProcessing />
+<ImageAndVideo />

@@ -1,10 +1,12 @@
 <h3>Loading data on server side and updating data on client side</h3>
 <p><em>Answers:</em> 3</p>
 <details>
-	<summary
-		>Loading/Updating data should in most cases be done in the <a href="https://kit.svelte.dev/docs/load"
-			>load functions</a
-		></summary>
+	<summary>
+		<p>
+			Loading/Updating data should in most cases be done in the <a href="https://kit.svelte.dev/docs/load"
+				>load functions</a>
+		</p>
+	</summary>
 	<p>
 		Load functions will not be rerun during client side navigation, there are a few exceptions like <a
 			href="https://kit.svelte.dev/docs/load#input-methods-parent">

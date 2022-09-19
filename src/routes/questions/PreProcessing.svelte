@@ -15,7 +15,7 @@ details
 h3 Configuring postcss
 p
   | To add postcss you have to add the following to svelte.config.js 
-  code preprocess: preprocess&#40;&#123;<br>postcss: &#123; plugins: &#91;autoprefixer&#40;'&#62; 0.01%'&#41;&#93; &#125;<br>&#125&#41;
+  code preprocess: <br>preprocess&#40;&#123;<br>postcss: &#123; plugins: &#91;autoprefixer&#40;'&#62; 0.01%'&#41;&#93; &#125;<br>&#125&#41;
 </template>
 
 <style lang="stylus">
