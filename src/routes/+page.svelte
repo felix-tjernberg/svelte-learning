@@ -8,7 +8,7 @@
 	import ApiEndpoint from '$lib/components/index/server-side/ApiEndpoint.svelte'
 	import LoadingData from '$lib/components/index/server-side/LoadingData.svelte'
 	import DomEvents from '$lib/components/index/svelte-specific/DomEvents.svelte'
-	import PreProcessing from '$lib/components/questions/PreProcessing.svelte'
+	import PreProcessing from '$lib/components/index/pre-processing/PreProcessing.svelte'
 	import Bindings from '$lib/components/index/svelte-specific/Bindings.svelte'
 	import ImageAndVideo from '$lib/components/index/pre-processing/ImageAndVideo.svelte'
 	import DynamicComponents from '$lib/components/index/svelte-specific/DynamicComponents.svelte'
