@@ -1,18 +1,24 @@
 <script>
+	import { afterNavigate } from '$app/navigation'
 	import '$lib/stylesheets/global.css'
+
+	let isQuestionsPage = false
+	afterNavigate(() => {
+		isQuestionsPage = window.location.pathname === '/questions'
+	})
 </script>
 
 <nav id="page-nav" aria-labelledby="Page navigation">
-	<a data-sveltekit-reload href="/">Answers</a>
-	<a data-sveltekit-reload href="/questions#top">Questions</a>
+	<a href="/">Answers</a>
+	<a href="/questions#top">Questions</a>
 </nav>
 <nav id="heading-nav" aria-labelledby="Heading navigation">
-	<a aria-current="page" href="#file-organization">File organization</a>
-	<a aria-current="page" href="#state-management">State management</a>
-	<a aria-current="page" href="#server-side">Server side</a>
-	<a aria-current="page" href="#svelte-specific">Svelte specific</a>
-	<a aria-current="page" href="#pre-processing">Pre processing</a>
-	<a aria-current="page" href="#other">Other</a>
+	<a aria-current="page" href={`#${isQuestionsPage ? '' : '1'}file-organization`}>File organization</a>
+	<a aria-current="page" href={`#${isQuestionsPage ? '' : '1'}state-management`}>State management</a>
+	<a aria-current="page" href={`#${isQuestionsPage ? '' : '1'}server-side`}>Server side</a>
+	<a aria-current="page" href={`#${isQuestionsPage ? '' : '1'}svelte-specific`}>Svelte specific</a>
+	<a aria-current="page" href={`#${isQuestionsPage ? '' : '1'}pre-processing`}>Pre processing</a>
+	<a aria-current="page" href={`#${isQuestionsPage ? '' : '1'}other`}>Other</a>
 </nav>
 
 <h1>Learning svelte website</h1>

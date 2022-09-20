@@ -1,6 +1,6 @@
 <p>The questions I wanted to figure out are the following:</p>
 
-<a data-sveltekit-reload href="/#file-organization">
+<a href="/#1file-organization">
 	<h2 id="file-organization">File organization</h2>
 </a>
 <ol>
@@ -10,7 +10,7 @@
 	<li>What happens when npm packages are imported?</li>
 </ol>
 
-<a data-sveltekit-reload href="/#state-management">
+<a href="/#1state-management">
 	<h2 id="state-management">State management</h2>
 </a>
 <ol>
@@ -19,7 +19,7 @@
 	<li>How to deal with local storage?</li>
 </ol>
 
-<a data-sveltekit-reload href="/#server-side">
+<a href="/#1server-side">
 	<h2 id="server-side">Server side</h2>
 </a>
 <ol>
@@ -29,7 +29,7 @@
 	<li>How to gate content?</li>
 </ol>
 
-<a data-sveltekit-reload href="/#svelte-specific">
+<a href="/#1svelte-specific">
 	<h2 id="svelte-specific">Svelte specific</h2>
 </a>
 <ol>
@@ -42,7 +42,7 @@
 	<li>How to setup dynamic components?</li>
 </ol>
 
-<a data-sveltekit-reload href="/#pre-processing">
+<a href="/#1pre-processing">
 	<h2 id="pre-processing">Pre-processing</h2>
 </a>
 <ol>
@@ -52,7 +52,7 @@
 	<li>How to setup automatic conversion of videos to webm formats if possible?</li>
 </ol>
 
-<a data-sveltekit-reload href="/#other">
+<a href="/#1other">
 	<h2 id="other">Other</h2>
 </a>
 <ol>
