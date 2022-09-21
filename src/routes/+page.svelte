@@ -12,6 +12,7 @@
 	import Bindings from '$lib/components/index/svelte-specific/Bindings.svelte'
 	import ImageAndVideo from '$lib/components/index/pre-processing/ImageAndVideo.svelte'
 	import DynamicComponents from '$lib/components/index/svelte-specific/DynamicComponents.svelte'
+	import Internationalization from '$lib/components/index/other/Internationalization.svelte'
 </script>
 
 <a href="/questions#file-organization">
@@ -47,3 +48,8 @@
 </template>
 <PreProcessing />
 <ImageAndVideo />
+
+<a href="/questions#other">
+	<h2 id="1other">Other</h2>
+</a>
+<Internationalization />

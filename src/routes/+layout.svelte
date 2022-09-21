@@ -1,11 +1,15 @@
 <script>
-	import { afterNavigate } from '$app/navigation'
 	import '$lib/stylesheets/global.css'
+	import { afterNavigate } from '$app/navigation'
+	import { browser } from '$app/environment'
+	import { locale } from 'svelte-intl-precompile'
 
 	let isQuestionsPage = false
 	afterNavigate(() => {
 		isQuestionsPage = window.location.pathname === '/questions'
 	})
+
+	$: if (browser) document.documentElement.lang = $locale
 </script>
 
 <nav id="page-nav" aria-labelledby="Page navigation">

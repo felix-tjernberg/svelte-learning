@@ -2,5 +2,8 @@
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
 	},
-	"svelte.enable-ts-plugin": true
+	"svelte.enable-ts-plugin": true,
+	"i18n-ally.sortKeys": true,
+	"i18n-ally.keepFulfilled": true,
+	"i18n-ally.localesPaths": ["src/lib/locales"]
 }
