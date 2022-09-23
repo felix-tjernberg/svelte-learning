@@ -12,20 +12,20 @@
 	let uniqueId = ''
 	let showHeaderNav = false
 	let showPageNav = false
-	let firstLoad = false
+	let firstClientRenderDone = true
 
 	afterNavigate(() => {
 		isQuestionsPage = window.location.pathname === '/questions'
 		showPageNav = true
-		if (document.documentElement.clientWidth > 800) showHeaderNav = true
-		firstLoad = true
+		if (firstClientRenderDone && document.documentElement.clientWidth > 800) showHeaderNav = true
+		firstClientRenderDone = false
 	})
 
 	$: if (browser) document.documentElement.lang = $locale
 	$: uniqueId = isQuestionsPage ? '' : '1'
 </script>
 
-{#if firstLoad && !showHeaderNav}
+{#if !firstClientRenderDone && !showHeaderNav}
 	<button
 		id="outside-header-nav"
 		in:fly={HEADING_NAV_FLY_SETTINGS}
