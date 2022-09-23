@@ -13,7 +13,13 @@
 	import ImageAndVideo from '$lib/components/index/pre-processing/ImageAndVideo.svelte'
 	import DynamicComponents from '$lib/components/index/svelte-specific/DynamicComponents.svelte'
 	import Internationalization from '$lib/components/index/other/Internationalization.svelte'
+	import Seo from '$lib/components/index/other/Seo.svelte'
 </script>
+
+<svelte:head>
+	<title>Answers</title>
+	<meta name="description" content="The answers Felix Tjernberg had about sveltekit" />
+</svelte:head>
 
 <a href="/questions#file-organization">
 	<h2 id="1file-organization">File organization</h2>
@@ -53,3 +59,4 @@
 	<h2 id="1other">Other</h2>
 </a>
 <Internationalization />
+<Seo />

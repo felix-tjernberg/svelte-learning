@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>Questions</title>
+	<meta name="description" content="The questions Felix Tjernberg had about sveltekit" />
+</svelte:head>
+
 <p>The questions I wanted to figure out are the following:</p>
 
 <a href="/#1file-organization">
@@ -57,8 +62,8 @@
 </a>
 <ol>
 	<li>How to setup internationalization?</li>
+	<li>Search enginge optimization best practices?</li>
 	<li>How to setup PWA?</li>
-	<li>How to setup service workers?</li>
 	<li>How testing with playwright works?</li>
 	<li>How unit test with vitest works?</li>
 </ol>

@@ -5,6 +5,7 @@
 </script>
 
 <h3>Internationalization</h3>
+<p><em>Answers: 1</em></p>
 <details>
 	<summary>
 		<p>Sveltekit has a plan to implement i18 after 1.0 is released, so for now a package is the way to go</p>
