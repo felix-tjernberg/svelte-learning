@@ -10,8 +10,8 @@ module.exports = {
 	},
 	rules: {
 		'no-unused-vars': 'warn',
-		'sort-imports': 'warn',
-		'sort-keys': ['warn', 'asc', { natural: true }],
+		'sort-imports': ['warn', { ignoreCase: true }],
+		'sort-keys': ['warn', 'asc', { caseSensitive: false, natural: true }],
 		'sort-vars': 'warn'
 	},
 	parserOptions: {

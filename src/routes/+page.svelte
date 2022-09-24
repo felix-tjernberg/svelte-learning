@@ -14,6 +14,7 @@
 	import DynamicComponents from '$lib/components/index/svelte-specific/DynamicComponents.svelte'
 	import Internationalization from '$lib/components/index/other/Internationalization.svelte'
 	import Seo from '$lib/components/index/other/Seo.svelte'
+	import PWA from '$lib/components/index/other/PWA.svelte'
 </script>
 
 <svelte:head>
@@ -60,3 +61,4 @@
 </a>
 <Internationalization />
 <Seo />
+<PWA />

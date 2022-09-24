@@ -32,6 +32,8 @@ h1,
 h2 {
 	color: hsl(115, 60%, 56%);
 }
+a,
+a:visited,
 h3 {
 	color: hsl(115, 30%, 56%);
 }
@@ -57,7 +59,7 @@ p {
 	width: auto;
 }
 button {
-	background-color: hsl(115, 30%, 56%);
 	color: #eee;
+	background-color: hsl(115, 30%, 56%);
 	padding: 4px 8px;
 }

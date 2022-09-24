@@ -29,7 +29,8 @@
 	<div>
 		<div>
 			<div>
-				{@html katex.renderToString(`a=`, { displayMode: true })}<input type="range" bind:value={a} min="0" max="10" />
+				{@html katex.renderToString(`a=`, { displayMode: true })}
+				<input type="range" bind:value={a} min="0" max="10" aria-label="Value for a" />
 			</div>
 			<div>
 				{@html katex.renderToString(`b=`, { displayMode: true })}

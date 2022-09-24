@@ -22,18 +22,18 @@
 			>looking at request headers</a>
 	</p>
 	<p>{$t('message')}</p>
-	<div>
+	<form on:submit|preventDefault>
 		{#each ['en', 'se', 'fr'] as value}
 			<label>
-				<input type="radio" bind:group={language} {value} />
+				<input type="radio" bind:group={language} {value} aria-label={`Select ${language} language`} />
 				{value}
 			</label>
 		{/each}
-	</div>
+	</form>
 </details>
 
 <style>
-	div {
+	form {
 		display: flex;
 	}
 </style>
