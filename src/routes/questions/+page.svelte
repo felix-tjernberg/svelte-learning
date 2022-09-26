@@ -31,7 +31,6 @@
 	<li>How routing works?</li>
 	<li>How to setup API endpoints?</li>
 	<li>How to load data on server server side and update data on client side?</li>
-	<li>How to gate content?</li>
 </ol>
 
 <a href="/#1svelte-specific">
@@ -64,6 +63,4 @@
 	<li>How to setup internationalization?</li>
 	<li>Search enginge optimization best practices?</li>
 	<li>How to setup PWA?</li>
-	<li>How testing with playwright works?</li>
-	<li>How unit test with vitest works?</li>
 </ol>

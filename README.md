@@ -1,34 +1,48 @@
 # Svelte Learning Repository
 
-This repository is a set of questions I wanted to answer about when learning Svelte.
+This is my practice repository for sveltekit. Below are a set of questions I wanted to investigate and implement
 
-The questions I wanted to figure out are the following:
-
-## File organization
+## File Organization
 
 1. How to organize css global and local styles?
 2. How to split out javascript to separate files like utility functions?
 3. How to setup aliases for imports?
 4. What happens when npm packages are imported?
 
-## State management
+## State Management
 
 1. How reactivity works?
 2. How to use stores?
-3. How to deal with local storage?
-4. How components communicate with each other via props, global and context states?
-5. How to do something simple like toggling dark/light mode?
+3. How to use stores?
+4. How to deal with local storage?
 
-## Server side
+## Server Side
 
-1. How hydration works in svelte?
-2. How routing works?
-3. How to setup API endpoints?
-4. How async/fetch on server and client side works?
+1. How routing works?
+2. How to setup API endpoints?
+3. How to load data on server server side and update data on client side?
 
-## Project organization
+## Svelte Specific
 
-1. How testing with playwright works?
-2. How unit test with vitest works?
-3. How to setup eslint and prettier (this was solved by the create svelte template)
-4. How to setup PWA?
+1. How dom events work?
+2. How event modifier works?
+3. How to setup custom events?
+4. How event forwarding works?
+5. How bindings work?
+6. How component custom bindings work?
+7. How to setup dynamic components?
+
+## Pre Processing
+
+1. How to use pug or other pre-processed languages?
+2. How to configure postcss?
+3. How to setup automatic conversion of images to scrset sizes and .avif and .webp formats?
+4. How to setup automatic conversion of videos to webm formats if possible?
+
+## Other
+
+1. How to setup internationalization?
+2. Search enginge optimization best practices?
+3. How to setup PWA?
+
+_Note: The ts-ignore comments are a result of me thinking it would be a good idea of trying out typescript for the first time, it was a bad idea to try to learn about both at the same time xD_
